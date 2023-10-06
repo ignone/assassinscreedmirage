@@ -32,7 +32,7 @@ const updateCountdownText = () => {
   if (timeLeft <= 0) {
     numberWrap.style.display = "none";
     dateElement.innerHTML = `
-  <div class="preloader__loading-wrap"><img src="/images/Group-49.svg" loading="lazy" alt="" class="incense-bg cc-preloader">
+  <div class="preloader__loading-wrap"><img src="https://uploads-ssl.webflow.com/650471c41bb3cd7fc36ed676/6517352dfc9a1f886cf7487d_Group%2049.svg" loading="lazy" alt="" class="incense-bg cc-preloader">
     <div class="h3 cc-preloader">Available Now</div>
   </div>`;
   } else {
